@@ -1,0 +1,13 @@
+server:
+  port: 3030
+  
+spring:
+  application:
+    name: welcome
+    
+  config:
+    import: optional:configserver:http://localhost:1010
+    
+#  profiles:
+#    active: dev      # welcome-dev.yml from github
+#    active: prod     # welcome-prod.yml from github

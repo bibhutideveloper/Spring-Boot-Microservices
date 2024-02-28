@@ -1,0 +1,16 @@
+#server:
+#  port: 3030
+ 
+spring:
+  application:
+    name: GREET-API   
+  boot:
+    admin:
+      client:
+        url: http://localhost:4000/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

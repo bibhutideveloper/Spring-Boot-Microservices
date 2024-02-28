@@ -1,0 +1,5 @@
+package com.bibhuti.rest;
+
+public class MsgRestController {
+
+}

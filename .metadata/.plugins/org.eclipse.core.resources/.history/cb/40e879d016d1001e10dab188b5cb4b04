@@ -1,0 +1,5 @@
+package com.bibhuti.config;
+
+public class SecurityConfigurer {
+
+}

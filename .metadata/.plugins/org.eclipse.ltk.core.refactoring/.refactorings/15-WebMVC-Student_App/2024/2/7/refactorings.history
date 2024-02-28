@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void formInitBinding(Model model, Student sobj)&apos; from &apos;com.bibhuti.controller.StudentController.loadIndexPage(...)&apos; to &apos;com.bibhuti.controller.StudentController&apos;&#x0D;&#x0A;- Original project: &apos;15-WebMVC-Student_App&apos;&#x0D;&#x0A;- Method name: &apos;formInitBinding&apos;&#x0D;&#x0A;- Destination type: &apos;com.bibhuti.controller.StudentController&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;formInitBinding&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bibhuti.controller{StudentController.java" name="formInitBinding" replace="false" selection="597 156" stamp="1707817137125" version="1.0" visibility="2"/>
+</session>

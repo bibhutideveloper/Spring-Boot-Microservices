@@ -1,0 +1,11 @@
+{
+	"id": 101,
+	"name": "Bibhuti",
+	"email": "bibhuti@gmail.com",
+	"phone": 9876543210,
+	"addr": {
+		"city": "Pune",
+		"state": "MH",
+		"country": "INDIA"
+	}
+}

@@ -1,0 +1,13 @@
+server:
+  port: 2020
+  
+spring:
+  application:
+    name: greet
+    
+  config:
+    import: optional:configserver:http://localhost:1010
+    
+#  profiles:
+#    active: dev      # welcome-dev.yml from github
+#    active: prod     # welcome-prod.yml from github

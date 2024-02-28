@@ -1,0 +1,5 @@
+package com.bibhuti.service;
+
+public class MyUserDetailsService {
+
+}

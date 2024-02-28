@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Form</title>
+</head>
+<body>
+	<h1>Book Ticket</h1>
+	
+	<p th:text="${msg}"></p>
+	
+	<form th:action="@{/bookTicket}" th:object="${passenger}" method="POST">
+		<table>
+			<tr>
+				<th>Name</th>
+				<td><input type="text" th:field="*{name}" /></td>
+			</tr>
+			<tr>
+				<th>From</th>
+				<td><input type="text" th:field="*{from}" /></td>
+			</tr>
+			<tr>
+				<th>To</th>
+				<td><input type="text" th:field="*{to}" /></td>
+			</tr>
+			<tr>
+				<th>DOJ</th>
+				<td><input type="text" th:field="*{doj}" /></td>
+			</tr>
+			<tr>
+				<th>Train Number</th>
+				<td><input type="text" th:field="*{trainNumber}" /></td>
+			</tr>
+			<tr>
+				<th></th><td><input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+	</form>
+	
+	<a th:href="@{/ticket}">View Ticket</a>
+	
+</body>
+</html>

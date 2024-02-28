@@ -1,0 +1,16 @@
+server:
+  port: 3031
+  
+spring:
+  application:
+    name: WELCOME-API
+  boot:
+    admin:
+      client:
+        url: http://localhost:4000/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
